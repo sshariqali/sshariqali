@@ -49,7 +49,7 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="36" /> About Me:
+### 👨‍💻 About Me:
 - 🏢 **AI Engineer** at [Sapience AI](https://sapienceai.co) & **Co-Founder** at [Powerpresent AI](https://powerpresent.ai)
 - 📍 Based in **Karachi, Pakistan**
 - 🧠 Specializing in **Deep Learning Architectures**, **Time-Series & Financial Forecasting**, and **LangChain / LangGraph Agentic Workflows**
@@ -74,7 +74,7 @@
 
 ---
 
-### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='24' /> Activity & Workflow Stats:
+### 📊 Activity & Workflow Stats:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/activity_breakdown.svg" alt="GitHub Activity Breakdown" width="100%" />
