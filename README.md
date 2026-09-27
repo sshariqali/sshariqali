@@ -2,20 +2,16 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shariq-ali-7702821b3/" target="_blank">
-    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/linkedin.svg" width="36" height="36" alt="LinkedIn" />
+    <img src="https://skillicons.dev/icons?i=linkedin" width="40" height="40" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:mshariq.ali97@gmail.com">
-    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/gmail.svg" width="36" height="36" alt="Email" />
+    <img src="https://skillicons.dev/icons?i=gmail" width="40" height="40" alt="Email" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/sshariqali" target="_blank">
-    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/github.svg" width="36" height="36" alt="GitHub" />
+    <img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GitHub" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" />
 </p>
 
 ### 💼 Current Roles & Ventures
@@ -24,7 +20,7 @@
   <tr>
     <td width="50%" align="center" valign="middle">
       <a href="https://sapienceai.co" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="85" height="85" alt="Sapience AI" style="border-radius: 16px; margin-bottom: 8px;" />
+        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="80" height="80" alt="Sapience AI" style="margin-bottom: 8px;" />
       </a>
       <br/>
       <a href="https://sapienceai.co" target="_blank"><b>Sapience AI</b></a>
@@ -35,7 +31,7 @@
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://powerpresent.ai" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.png" width="85" height="85" alt="Powerpresent AI" style="border-radius: 16px; margin-bottom: 8px;" />
+        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.png" width="80" height="80" alt="Powerpresent AI" style="margin-bottom: 8px;" />
       </a>
       <br/>
       <a href="https://powerpresent.ai" target="_blank"><b>Powerpresent AI</b></a>
@@ -52,7 +48,7 @@
 ### 👨‍💻 About Me:
 - 🏢 **AI Engineer** at [Sapience AI](https://sapienceai.co) & **Co-Founder** at [Powerpresent AI](https://powerpresent.ai)
 - 📍 Based in **Karachi, Pakistan**
-- 🧠 Specializing in **Deep Learning Architectures**, **Time-Series & Financial Forecasting**, and **LangChain / LangGraph Agentic Workflows**
+- 🧠 Specializing in **Deep Learning Architectures**, **Time-Series & Financial Forecasting**, and **LangChain Agentic Workflows**
 - 💻 I use daily: **.py**, **.ts**, **.sql**, **.ipynb**
 - 🏆 Kaggle Achievement: Finished in the **Top 26th Place** in the *GoDaddy Microbusiness Density Forecasting* competition
 - ⚡ Fun fact: Passionate about competitive ML formulation and algorithmic chess
@@ -62,13 +58,11 @@
   <a href="https://skillicons.dev" target="_blank">
     <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,ts,fastapi,docker,git,postgres,linux,bash,astro" />
   </a>
-</p>
-<p align="center">
   <a href="https://www.langchain.com/" target="_blank">
-    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/langchain.svg" width="48" height="48" alt="LangChain" style="vertical-align: top; margin: 2px;" />
   </a>
   <a href="https://huggingface.co/" target="_blank">
-    <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
+    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/huggingface.svg" width="48" height="48" alt="Hugging Face" style="vertical-align: top; margin: 2px;" />
   </a>
 </p>
 
