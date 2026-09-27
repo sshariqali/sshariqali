@@ -67,9 +67,6 @@
   <a href="https://www.langchain.com/" target="_blank">
     <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
   </a>
-  <a href="https://www.langchain.com/langgraph" target="_blank">
-    <img src="https://img.shields.io/badge/LangGraph-0284C7?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
-  </a>
   <a href="https://huggingface.co/" target="_blank">
     <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
   </a>
