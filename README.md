@@ -74,7 +74,11 @@
 
 ---
 
-### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='24' /> My Github Stats:
+### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='24' /> Activity & Workflow Stats:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/activity_breakdown.svg" alt="GitHub Activity Breakdown" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=sshariqali&theme=dark&hide_border=true&background=161b22" alt="GitHub Streak" width="55%" />
