@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <defs>
+    <linearGradient id="pp_grad1" x1="37.3" x2="134" y1="15.93" y2="109" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FD02D0" offset="0"/>
+      <stop stop-color="#1BE4FD" offset="1"/>
+    </linearGradient>
+    <linearGradient id="pp_grad2" x1="45.91" x2="68.67" y1="115.9" y2="146" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5397EE" offset="0"/>
+      <stop stop-color="#31DAFA" offset="1"/>
+    </linearGradient>
+    <linearGradient id="pp_grad3" x1="23.81" x2="46.15" y1="102.1" y2="124.2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9761EA" offset="0"/>
+      <stop stop-color="#7A91EE" offset="1"/>
+    </linearGradient>
+    <linearGradient id="pp_grad4" x1="2.541" x2="23.74" y1="80.18" y2="101.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D428D6" offset="0"/>
+      <stop stop-color="#9761EA" offset="1"/>
+    </linearGradient>
+    <linearGradient id="pp_grad5" x1="71.04" x2="99.36" y1="44.09" y2="81.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AF50E1" offset="0"/>
+      <stop stop-color="#5699EF" offset="1"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#pp_grad1)" d="m102.3 3.7h-33.3c-24.6 0-45.2 20.2-45.2 43.8v32.6h22.4v-32.6c0-10.6 9.7-22.1 23.5-22.1h32.8c12.1-0.2 23.8 9.5 23.8 22.6v30.9c0 10.8-8.2 22.9-23.8 23h-33.8v22.3h33.8c24.6 0 45.2-18.9 45.4-45v-31.3c-0.2-21.5-18-44.2-45.6-44.2z"/>
+  <rect x="46.1" y="124.2" width="22.8" height="22.6" fill="url(#pp_grad2)"/>
+  <rect x="23.8" y="102" width="22.7" height="22.5" fill="url(#pp_grad3)"/>
+  <rect x="2.5" y="80.1" width="21.3" height="22.2" fill="url(#pp_grad4)"/>
+  <path d="m101.3 46.4h-30.7c-0.9 0-1.9 0.9-1.9 2v31.7h32.6c1 0 2.1-0.9 2.1-2v-29.4c0-1.2-0.9-2.3-2.1-2.3z" fill="url(#pp_grad5)"/>
+</svg>

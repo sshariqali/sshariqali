@@ -1,44 +1,40 @@
 # <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=1000&color=FFFFFF&center=true&vCenter=true&width=650&height=50&lines=Hi+there%2C+I'm+Shariq+Ali+%F0%9F%91%8B;AI+Engineer+%40+Sapience+AI+%F0%9F%A7%A0;Co-Founder+%40+Powerpresent+AI+%F0%9F%9A%80;Based+in+Karachi%2C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0" alt="Shariq Ali" /></p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shariq-ali-7702821b3/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="40" height="40" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:mshariq.ali97@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" width="40" height="40" alt="Email" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/sshariqali" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GitHub" />
-  </a>
-</p>
-
 ### 💼 Current Roles & Ventures
 
 <table>
   <tr>
     <td width="50%" align="center" valign="middle">
+      <br/>
       <a href="https://sapienceai.co" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="80" height="80" alt="Sapience AI" style="margin-bottom: 8px;" />
+        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="75" height="75" alt="Sapience AI" />
       </a>
-      <br/>
-      <a href="https://sapienceai.co" target="_blank"><b>Sapience AI</b></a>
-      <br/>
-      <sub>AI Engineer</sub>
       <br/><br/>
-      <p align="center"><sub>AI knowledge platform helping membership organizations & professional communities put institutional intelligence to work.</sub></p>
+      <a href="https://sapienceai.co" target="_blank">
+        <img src="https://img.shields.io/badge/Sapience_AI-AI_Engineer-0A84FF?style=flat-square&logo=openai&logoColor=white" alt="Sapience AI" />
+      </a>
+      <br/><br/>
+      <p align="center">
+        <b>Knowledge Platform for Organizations</b><br/>
+        <sub>Empowering membership communities and professional associations to put collective intelligence to work.</sub>
+      </p>
+      <br/>
     </td>
     <td width="50%" align="center" valign="middle">
+      <br/>
       <a href="https://powerpresent.ai" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.png" width="80" height="80" alt="Powerpresent AI" style="margin-bottom: 8px;" />
+        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.svg" width="75" height="75" alt="Powerpresent AI" />
       </a>
-      <br/>
-      <a href="https://powerpresent.ai" target="_blank"><b>Powerpresent AI</b></a>
-      <br/>
-      <sub>Co-Founder</sub>
       <br/><br/>
-      <p align="center"><sub>AI-powered presentation generator automating slide design, topic-to-deck synthesis, and document exports.</sub></p>
+      <a href="https://powerpresent.ai" target="_blank">
+        <img src="https://img.shields.io/badge/Powerpresent_AI-Co--Founder-D946EF?style=flat-square&logo=slides&logoColor=white" alt="Powerpresent AI" />
+      </a>
+      <br/><br/>
+      <p align="center">
+        <b>AI Presentation Platform</b><br/>
+        <sub>AI-powered presentation generator automating slide design, topic-to-deck synthesis, and PowerPoint exports.</sub>
+      </p>
+      <br/>
     </td>
   </tr>
 </table>
