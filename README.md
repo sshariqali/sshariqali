@@ -11,7 +11,7 @@
       </a>
       <br/><br/>
       <a href="https://sapienceai.co" target="_blank">
-        <img src="https://img.shields.io/badge/Sapience_AI-AI_Engineer-0A84FF?style=flat-square&logo=openai&logoColor=white" alt="Sapience AI" />
+        <img src="https://img.shields.io/badge/Sapience_AI-AI_Engineer-0A84FF?style=flat-square" alt="Sapience AI" />
       </a>
       <br/><br/>
       <p align="center">
@@ -27,7 +27,7 @@
       </a>
       <br/><br/>
       <a href="https://powerpresent.ai" target="_blank">
-        <img src="https://img.shields.io/badge/Powerpresent_AI-Co--Founder-D946EF?style=flat-square&logo=slides&logoColor=white" alt="Powerpresent AI" />
+        <img src="https://img.shields.io/badge/Powerpresent_AI-Co--Founder-D946EF?style=flat-square" alt="Powerpresent AI" />
       </a>
       <br/><br/>
       <p align="center">
