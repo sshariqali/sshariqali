@@ -6,13 +6,9 @@
   <tr>
     <td width="50%" align="center" valign="middle">
       <br/>
-      <a href="https://sapienceai.co" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="75" alt="Sapience AI" />
-      </a>
+      <a href="https://sapienceai.co" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="75" alt="Sapience AI" /></a>
       <br/><br/>
-      <a href="https://sapienceai.co" target="_blank">
-        <img src="https://img.shields.io/badge/Sapience_AI-AI_Engineer-0A84FF?style=flat-square" alt="Sapience AI" />
-      </a>
+      <a href="https://sapienceai.co" target="_blank"><img src="https://img.shields.io/badge/Sapience_AI-AI_Engineer-0A84FF?style=flat-square" alt="Sapience AI" /></a>
       <br/><br/>
       <p align="center">
         <b>Knowledge Platform for Organizations</b><br/>
@@ -22,13 +18,9 @@
     </td>
     <td width="50%" align="center" valign="middle">
       <br/>
-      <a href="https://powerpresent.ai" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.svg" width="75" alt="Powerpresent AI" />
-      </a>
+      <a href="https://powerpresent.ai" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.svg" width="75" alt="Powerpresent AI" /></a>
       <br/><br/>
-      <a href="https://powerpresent.ai" target="_blank">
-        <img src="https://img.shields.io/badge/Powerpresent_AI-Co--Founder-D946EF?style=flat-square" alt="Powerpresent AI" />
-      </a>
+      <a href="https://powerpresent.ai" target="_blank"><img src="https://img.shields.io/badge/Powerpresent_AI-Co--Founder-D946EF?style=flat-square" alt="Powerpresent AI" /></a>
       <br/><br/>
       <p align="center">
         <b>AI Presentation Platform</b><br/>
@@ -51,15 +43,9 @@
 - 🧑‍💻 Tech I work on :
 
 <p align="center">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,ts,fastapi,docker,git,postgres,linux,bash,astro" />
-  </a>
-  <a href="https://www.langchain.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/langchain.svg" width="48" alt="LangChain" style="vertical-align: top; margin: 2px;" />
-  </a>
-  <a href="https://huggingface.co/" target="_blank">
-    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/huggingface.svg" width="48" alt="Hugging Face" style="vertical-align: top; margin: 2px;" />
-  </a>
+  <a href="https://skillicons.dev" target="_blank"><img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,ts,fastapi,docker,git,postgres,linux,bash,astro" /></a>
+  <a href="https://www.langchain.com/" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/langchain.svg" width="48" alt="LangChain" style="vertical-align: top; margin: 2px;" /></a>
+  <a href="https://huggingface.co/" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/huggingface.svg" width="48" alt="Hugging Face" style="vertical-align: top; margin: 2px;" /></a>
 </p>
 
 ---
