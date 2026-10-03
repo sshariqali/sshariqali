@@ -7,7 +7,7 @@
     <td width="50%" align="center" valign="middle">
       <br/>
       <a href="https://sapienceai.co" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="75" height="75" alt="Sapience AI" />
+        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="75" alt="Sapience AI" />
       </a>
       <br/><br/>
       <a href="https://sapienceai.co" target="_blank">
@@ -23,7 +23,7 @@
     <td width="50%" align="center" valign="middle">
       <br/>
       <a href="https://powerpresent.ai" target="_blank">
-        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.svg" width="75" height="75" alt="Powerpresent AI" />
+        <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/powerpresent_ai.svg" width="75" alt="Powerpresent AI" />
       </a>
       <br/><br/>
       <a href="https://powerpresent.ai" target="_blank">
@@ -55,10 +55,10 @@
     <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,ts,fastapi,docker,git,postgres,linux,bash,astro" />
   </a>
   <a href="https://www.langchain.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/langchain.svg" width="48" height="48" alt="LangChain" style="vertical-align: top; margin: 2px;" />
+    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/langchain.svg" width="48" alt="LangChain" style="vertical-align: top; margin: 2px;" />
   </a>
   <a href="https://huggingface.co/" target="_blank">
-    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/huggingface.svg" width="48" height="48" alt="Hugging Face" style="vertical-align: top; margin: 2px;" />
+    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/huggingface.svg" width="48" alt="Hugging Face" style="vertical-align: top; margin: 2px;" />
   </a>
 </p>
 
