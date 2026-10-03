@@ -28,112 +28,84 @@ def generate_svg(total_commits, hours, days):
     peak_day = next((d["name"] for d in days if d["commits"] == max_d), "Tue")
 
     periods = [
-        {"name": "Morning", "range": "06:00 – 12:00", "commits": morning, "pct": m_pct},
-        {"name": "Afternoon", "range": "12:00 – 18:00", "commits": daytime, "pct": d_pct},
-        {"name": "Evening", "range": "18:00 – 00:00", "commits": evening, "pct": e_pct},
-        {"name": "Night", "range": "00:00 – 06:00", "commits": night, "pct": n_pct},
+        {"name": "Morning", "hours": "06:00 – 12:00", "commits": morning, "pct": m_pct},
+        {"name": "Afternoon", "hours": "12:00 – 18:00", "commits": daytime, "pct": d_pct},
+        {"name": "Evening", "hours": "18:00 – 00:00", "commits": evening, "pct": e_pct},
+        {"name": "Night", "hours": "00:00 – 06:00", "commits": night, "pct": n_pct},
     ]
-    max_period = max(p["commits"] for p in periods)
+    max_p = max(p["commits"] for p in periods)
     for p in periods:
-        p["peak"] = (p["commits"] == max_period)
+        p["peak"] = (p["commits"] == max_p)
+
+    width = 840
+    height = 185
 
     svg = []
-    svg.append('<svg xmlns="http://www.w3.org/2000/svg" width="840" height="224" viewBox="0 0 840 224" fill="none">')
+    svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">')
     svg.append('''  <style>
     .bg { fill: #161b22; stroke: #30363d; }
-    .divider { stroke: #21262d; }
+    .divider { stroke: #30363d; }
     .track { fill: #21262d; }
-    .bar-normal { fill: #238636; }
-    .bar-peak { fill: #39d353; }
-    .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #f0f6fc; }
-    .text-subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; fill: #8b949e; }
-    .text-header { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #8b949e; letter-spacing: 0.5px; }
-    .text-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #c9d1d9; }
-    .text-val { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 11px; font-weight: 600; fill: #f0f6fc; }
-    .text-val-muted { fill: #8b949e; font-weight: 400; }
-    .text-day { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #8b949e; }
-    .text-day-peak { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #39d353; }
-    .badge-bg { fill: #21262d; stroke: #30363d; }
-    .badge-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 10px; font-weight: 600; fill: #8b949e; }
-
-    @media (prefers-color-scheme: light) {
-      .bg { fill: #ffffff; stroke: #d0d7de; }
-      .divider { stroke: #d8dee4; }
-      .track { fill: #eaeef2; }
-      .bar-normal { fill: #2da44e; }
-      .bar-peak { fill: #1a7f37; }
-      .text-title { fill: #1f2328; }
-      .text-subtitle { fill: #656d76; }
-      .text-header { fill: #656d76; }
-      .text-label { fill: #24292f; }
-      .text-val { fill: #1f2328; }
-      .text-val-muted { fill: #656d76; }
-      .text-day { fill: #656d76; }
-      .text-day-peak { fill: #1a7f37; }
-      .badge-bg { fill: #f6f8fa; stroke: #d0d7de; }
-      .badge-text { fill: #656d76; }
-    }
+    .bar-normal { fill: #FB8C00; fill-opacity: 0.45; }
+    .bar-peak { fill: #FB8C00; }
+    .header-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FB8C00; letter-spacing: 0.8px; }
+    .sub-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; fill: #9E9E9E; }
+    .row-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #E4E2E2; }
+    .val-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 11px; font-weight: 600; fill: #FEFEFE; }
+    .val-muted { fill: #9E9E9E; font-weight: 400; }
+    .day-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #9E9E9E; }
+    .day-text-peak { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #FB8C00; }
   </style>''')
 
     # Card background
-    svg.append('  <rect x="0.5" y="0.5" width="839" height="223" rx="8" class="bg" stroke-width="1" />')
+    svg.append(f'  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="6" class="bg" stroke-width="1" />')
 
-    # Header
-    svg.append('  <g transform="translate(24, 18)">')
-    svg.append('    <text x="0" y="13" class="text-title">⚡ Commit Activity Breakdown</text>')
-    svg.append('    <text x="0" y="27" class="text-subtitle">Weekly &amp; hourly rhythm across repositories · Karachi Time (PKT / UTC+5)</text>')
-    svg.append('    <rect x="668" y="1" width="124" height="22" rx="11" class="badge-bg" stroke-width="1" />')
-    svg.append(f'    <text x="730" y="15" text-anchor="middle" class="badge-text">{total_commits:,} COMMITS</text>')
-    svg.append('  </g>')
+    # Section Headers (Symmetrical at y=27)
+    svg.append('  <text x="24" y="27" class="header-label">TIME OF DAY</text>')
+    svg.append('  <text x="396" y="27" text-anchor="end" class="sub-label">Karachi Time (PKT)</text>')
 
-    # Horizontal divider
-    svg.append('  <line x1="24" y1="56" x2="816" y2="56" class="divider" stroke-width="1" />')
+    svg.append('  <text x="444" y="27" class="header-label">DAY OF WEEK</text>')
+    svg.append(f'  <text x="816" y="27" text-anchor="end" class="sub-label">Peak: {peak_day} ({max_d} commits)</text>')
 
-    # Left Column: Time of Day
-    svg.append('  <g transform="translate(24, 70)">')
-    svg.append('    <text x="0" y="0" class="text-header">TIME OF DAY</text>')
+    # Horizontal Divider
+    svg.append('  <line x1="24" y1="38" x2="816" y2="38" class="divider" stroke-width="1" stroke-opacity="0.6" />')
 
-    track_max_w = 175
-    y_start = 14
+    # Vertical Divider between the two charts
+    svg.append(f'  <line x1="420" y1="18" x2="420" y2="{height - 18}" class="divider" stroke-width="1" stroke-opacity="0.6" />')
+
+    # Left: Time of Day (4 horizontal bars)
+    track_w = 170
+    y_start = 50
     for i, p in enumerate(periods):
-        y = y_start + i * 32
-        bar_w = max(4, (p["pct"] / 100) * track_max_w)
+        y = y_start + i * 28
+        bar_w = max(4, (p["pct"] / 100) * track_w)
         bar_class = "bar-peak" if p["peak"] else "bar-normal"
 
-        svg.append(f'    <text x="0" y="{y + 11}" class="text-label">{p["name"]}</text>')
-        svg.append(f'    <rect x="110" y="{y + 2}" width="{track_max_w}" height="10" rx="5" class="track" />')
-        svg.append(f'    <rect x="110" y="{y + 2}" width="{bar_w:.1f}" height="10" rx="5" class="{bar_class}" />')
-        svg.append(f'    <text x="{110 + track_max_w + 14}" y="{y + 11}" class="text-val">{p["commits"]} <tspan class="text-val-muted">({p["pct"]:.1f}%)</tspan></text>')
-    svg.append('  </g>')
+        svg.append(f'  <text x="24" y="{y + 11}" class="row-name">{p["name"]}</text>')
+        svg.append(f'  <rect x="110" y="{y + 2}" width="{track_w}" height="10" rx="5" class="track" />')
+        svg.append(f'  <rect x="110" y="{y + 2}" width="{bar_w:.1f}" height="10" rx="5" class="{bar_class}" />')
+        svg.append(f'  <text x="{110 + track_w + 14}" y="{y + 11}" class="val-text">{p["commits"]} <tspan class="val-muted">({p["pct"]:.1f}%)</tspan></text>')
 
-    # Vertical divider
-    svg.append('  <line x1="420" y1="68" x2="420" y2="208" class="divider" stroke-width="1" />')
-
-    # Right Column: Day of Week
-    svg.append('  <g transform="translate(444, 70)">')
-    svg.append(f'    <text x="0" y="0" class="text-header">DAY OF WEEK</text>')
-    svg.append(f'    <text x="372" y="0" text-anchor="end" class="text-subtitle">Peak: {peak_day} ({max_d} commits)</text>')
-
+    # Right: Day of Week (7 vertical bars)
     bar_width = 34
     spacing = (372 - (7 * bar_width)) / 6
-    chart_h = 80
-    chart_base_y = 112
+    chart_h = 76
+    chart_base_y = 142
 
     for i, d in enumerate(days):
-        bx = i * (bar_width + spacing)
+        bx = 444 + i * (bar_width + spacing)
         bh = max(4, (d["commits"] / max_d) * chart_h)
         by = chart_base_y - bh
         is_peak = d["peak"]
         bar_class = "bar-peak" if is_peak else "bar-normal"
-        lbl_class = "text-day-peak" if is_peak else "text-day"
-        val_color = "fill: #39d353; font-weight: 700;" if is_peak else ""
+        lbl_class = "day-text-peak" if is_peak else "day-text"
+        val_color = "fill: #FB8C00; font-weight: 700;" if is_peak else "fill: #9E9E9E;"
 
-        svg.append(f'    <text x="{bx + bar_width/2:.1f}" y="{by - 6:.1f}" text-anchor="middle" class="text-val" style="{val_color}">{d["commits"]}</text>')
-        svg.append(f'    <rect x="{bx:.1f}" y="{chart_base_y - chart_h}" width="{bar_width}" height="{chart_h}" rx="4" class="track" />')
-        svg.append(f'    <rect x="{bx:.1f}" y="{by:.1f}" width="{bar_width}" height="{bh:.1f}" rx="4" class="{bar_class}" />')
-        svg.append(f'    <text x="{bx + bar_width/2:.1f}" y="{chart_base_y + 18}" text-anchor="middle" class="{lbl_class}">{d["name"]}</text>')
+        svg.append(f'  <text x="{bx + bar_width/2:.1f}" y="{by - 5:.1f}" text-anchor="middle" class="val-text" style="{val_color}">{d["commits"]}</text>')
+        svg.append(f'  <rect x="{bx:.1f}" y="{chart_base_y - chart_h}" width="{bar_width}" height="{chart_h}" rx="4" class="track" />')
+        svg.append(f'  <rect x="{bx:.1f}" y="{by:.1f}" width="{bar_width}" height="{bh:.1f}" rx="4" class="{bar_class}" />')
+        svg.append(f'  <text x="{bx + bar_width/2:.1f}" y="{chart_base_y + 18}" text-anchor="middle" class="{lbl_class}">{d["name"]}</text>')
 
-    svg.append('  </g>')
     svg.append('</svg>')
     return "\n".join(svg)
 
