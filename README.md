@@ -38,7 +38,7 @@
 - 📍 Based in **Karachi, Pakistan**
 - 🧠 Specializing in **Agentic Workflows**, **Deep Learning Architectures**, and **Time-Series & Financial Forecasting**
 - 🏆 Kaggle Achievement: Finished in the **Top 26th Place** in the [*GoDaddy Microbusiness Density Forecasting*](https://www.kaggle.com/certification/competitions/shariq97/godaddy-microbusiness-density-forecasting) competition
-- ⚡ Fun fact: Passionate about competitive ML formulation and algorithmic chess
+- ⚡ Fun fact: Passionate about competitive ML formulation and ASI (Artificial SuperIntelligence)
 - 🧑‍💻 Tech I work on :
 
 <p align="center">
