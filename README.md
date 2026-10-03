@@ -12,7 +12,7 @@
   <tr>
     <td width="50%" align="center" valign="middle">
       <br/>
-      <a href="https://sapienceai.co" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai.png" width="75" alt="Sapience AI" /></a>
+      <a href="https://sapienceai.co" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/sapience_ai_corp_logo.jpg" width="75" alt="Sapience AI" /></a>
       <br/><br/>
       <a href="https://sapienceai.co" target="_blank"><img src="https://img.shields.io/badge/Sapience_AI-AI_Engineer-0A84FF?style=flat-square" alt="Sapience AI" /></a>
       <br/><br/>
