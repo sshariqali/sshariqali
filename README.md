@@ -43,9 +43,19 @@
 - 🧑‍💻 Tech I work on :
 
 <p align="center">
-  <a href="https://skillicons.dev" target="_blank"><img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,ts,fastapi,docker,git,postgres,linux,bash,astro" /></a>
-  <a href="https://www.langchain.com/" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/langchain.svg" width="48" alt="LangChain" style="vertical-align: top; margin: 2px;" /></a>
-  <a href="https://huggingface.co/" target="_blank"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/huggingface.svg" width="48" alt="Hugging Face" style="vertical-align: top; margin: 2px;" /></a>
+  <a href="https://www.python.org/" target="_blank" title="Python"><img src="https://skillicons.dev/icons?i=py" alt="Python" title="Python" /></a>
+  <a href="https://pytorch.org/" target="_blank" title="PyTorch"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" title="PyTorch" /></a>
+  <a href="https://www.tensorflow.org/" target="_blank" title="TensorFlow"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" title="TensorFlow" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" title="TypeScript" /></a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank" title="FastAPI"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" title="FastAPI" /></a>
+  <a href="https://www.docker.com/" target="_blank" title="Docker"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker" /></a>
+  <a href="https://git-scm.com/" target="_blank" title="Git"><img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" /></a>
+  <a href="https://www.postgresql.org/" target="_blank" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" /></a>
+  <a href="https://www.linux.org/" target="_blank" title="Linux"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux" /></a>
+  <a href="https://www.gnu.org/software/bash/" target="_blank" title="Bash"><img src="https://skillicons.dev/icons?i=bash" alt="Bash" title="Bash" /></a>
+  <a href="https://astro.build/" target="_blank" title="Astro"><img src="https://skillicons.dev/icons?i=astro" alt="Astro" title="Astro" /></a>
+  <a href="https://www.langchain.com/" target="_blank" title="LangChain"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/langchain.svg" width="48" alt="LangChain" title="LangChain" /></a>
+  <a href="https://huggingface.co/" target="_blank" title="Hugging Face"><img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/huggingface.svg" width="48" alt="Hugging Face" title="Hugging Face" /></a>
 </p>
 
 ---
