@@ -1,4 +1,10 @@
-# <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=1000&color=FFFFFF&center=true&vCenter=true&width=650&height=50&lines=Hi+there%2C+I'm+Shariq+Ali+%F0%9F%91%8B;AI+Engineer+%40+Sapience+AI+%F0%9F%A7%A0;Co-Founder+%40+Powerpresent+AI+%F0%9F%9A%80;Based+in+Karachi%2C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0" alt="Shariq Ali" /></p>
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/typing_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/typing_light.svg">
+    <img src="https://raw.githubusercontent.com/sshariqali/sshariqali/main/assets/typing_dark.svg" alt="Hi there, I'm Shariq Ali" />
+  </picture>
+</h1>
 
 ### 💼 Current Roles & Ventures
 
