@@ -36,8 +36,7 @@
 ### 👨‍💻 About Me:
 - 🏢 **AI Engineer** at [Sapience AI](https://sapienceai.co) & **Co-Founder** at [Powerpresent AI](https://powerpresent.ai)
 - 📍 Based in **Karachi, Pakistan**
-- 🧠 Specializing in **Deep Learning Architectures**, **Time-Series & Financial Forecasting**, and **LangChain Agentic Workflows**
-- 💻 I use daily: **.py**, **.ts**, **.sql**, **.ipynb**
+- 🧠 Specializing in **Agentic Workflows**, **Deep Learning Architectures**, and **Time-Series & Financial Forecasting**
 - 🏆 Kaggle Achievement: Finished in the **Top 26th Place** in the *GoDaddy Microbusiness Density Forecasting* competition
 - ⚡ Fun fact: Passionate about competitive ML formulation and algorithmic chess
 - 🧑‍💻 Tech I work on :
